@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [
+      "es2015",
+      "dom",
+      "dom.iterable"
+    ],
+    "esModuleInterop": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": [
+    "src",
+    "node_modules/@types/puppeteer/index.d.ts",
+    "node_modules/puppeteer-extra/dist/index.d.ts",
+    "node_modules/puppeteer-extra-plugin-adblocker/dist/index.d.ts",
+    "node_modules/puppeteer-extra-plugin-stealth/dist/index.d.ts"
+  ]
+}
